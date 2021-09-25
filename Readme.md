@@ -1,6 +1,17 @@
 Motion detection with opencv 
 # Install 
+```commandline
 imutils
+cv2
+numpy
+Flask
+```
+
+# Run: 
++ `python app_motion_detection.py`
++ Go to app: http://0.0.0.0:3333/
++ ![](image.png)
++ Add link video and test result.
 
 # Motion detector using background subtraction algorithm.
 + Tích lũy giá trị trung bình các trọng số của N frame trước.

@@ -189,8 +189,8 @@ def video_feed():
 
 # check to see if this is the main thread of execution
 if __name__ == '__main__':
-    # app.run(host="0.0.0.0", port="3333", debug=True,
-    #         threaded=True, use_reloader=False)
+    app.run(host="0.0.0.0", port="3333", debug=True,
+            threaded=True, use_reloader=False)
 
-    detect_motion()
+    # detect_motion()
     # test 2 pc start 2 process khac nhau thi stream se ntn?
